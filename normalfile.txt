@@ -1,0 +1,949 @@
+shutdown -h now
+ll
+yum update
+yum update -y
+exit
+cd /var/www/html
+vi index.php
+sudo systemctl restart httpd
+curl ifocnfig.me
+curl ifconfig.me
+cd
+ls -la
+cd /home/centos/
+ll
+cd project/
+ll
+cp -pvrf php-sample-application/ /var/www/html/
+cd /var/www/html/
+l
+ll
+rm -rf index.php 
+ll
+ll
+ls -a
+ll
+cd php-sample-application/
+ll
+vi index.php
+sudo systemctl restart httpd
+ll
+cd 
+ls -=a
+l s-la
+ls -la
+cd /var/www/html/
+ll
+cd php-sample-application/
+ll
+cd /etc/httpd/conf.d/
+l s-la
+ls -la
+ll
+l
+vi php_sample_code.conf
+ll
+composer require phpunit/php-timer
+cd /home/centos/project/
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b38b9800061b4150413ff2e3b6f88543c636f7cd84f6db9189d43a81e5503cda447da73c7e5b6') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+sudo mv composer.phar /usr/local/bin/composer
+cd php-sample-application/
+ll
+composer update
+composer
+cd ../
+composer
+ll
+ll
+l
+php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+php composer-setup.php
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php composer-setup.php --install-dir=bin
+cd /usr/local/bin/
+ll
+php composer-setup.php --install-dir=bin
+composer
+./composer
+composer
+ll
+cd 
+cd /home/centos/
+cd project/
+curl https://getcomposer.org/installer| php
+sudo mv composer.phar /usr/local/bin/composer
+sudo chmod +x /usr/local/bin/composer
+composer
+ll
+cd php-sample-application/
+ll
+composer
+composer --version 
+cd ../
+ll
+ls -la
+cd php-sample-application/
+ll
+composer
+php -r "unlink('composer-setup.php');"
+php -r "unlink('composer.phar');"
+sudo yum -y update
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+HASH="$(wget -q -O - https://composer.github.io/installer.sig)"
+yum install wget
+HASH="$(wget -q -O - https://composer.github.io/installer.sig)"
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+composer
+ll
+php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+php /usr/local/bin/composer
+composer
+sudo mv composer.phar /usr/local/bin/composer
+php -r "unlink('composer-setup.php');"
+/usr/local/bin/composer
+/usr/local/bin/composer install
+/usr/local/bin/composer update
+ls -la
+composer
+curl -sS https://getcomposer.org/installer | php 
+ll
+sudo mv composer.phar /usr/bin/composer
+composer
+composer update
+sudo chkconfig httpd on
+sudo yum install php-cgi
+cd  /etc/httpd/conf.d/
+ls -la
+vll
+ll
+vi php.conf 
+vi php-cgi.conf
+vi php-cgi.conf
+vi /etc/php.ini 
+vi /etc/php.ini 
+vi /etc/php.ini 
+vi /etc/php.ini 
+vi /etc/php.ini 
+php -M
+php -m
+yum install php-mysql
+yum install mod_fcgid php-fpm
+sudo grep -E '^\s*listen\s*=\s*[a-zA-Z/]+' /etc/php-fpm.d/www.conf
+cd /var/www/html/php-sample-application/
+ls -la
+vi index.php
+cat > index.php 
+service restart  httpd
+service httpd restart
+service httpd status
+service httpd php-fpm
+service php-fpm status
+service php-fpm enable
+service php-fpm satrt
+service php-fpm start
+service php-fpm status
+l
+vi /etc/httpd/conf/httpd.conf 
+cd ../
+ll
+rm -rf php-sample-application/
+cd ../
+ll
+mv html/ ../
+ll
+cp -pvrf /home/centos/project/php-sample-application/* /var/www/
+ll
+cd ../
+ll
+cd www/
+ls -a
+ll
+mv ../html/ .
+ll
+amv autoloader.php bootstrap.php composer.json composer.lock cgi-bin config-dev dic error_handler.php logs Makefile README.md sql src vendor web
+mkdir sample_project
+l
+ll
+mv autoloader.php bootstrap.php composer.json composer.lock cgi-bin config-dev dic error_handler.php logs Makefile README.md sql src vendor web sample_project/
+ll
+vi /etc/httpd/conf/httpd.conf 
+ll
+mv sample_project/ html/
+ll
+cd  html/
+lls
+ls -la
+cd sample_project/
+ll
+vi index.php 
+service httpd restart
+ vi /etc/httpd/conf.d/sample_project.conf
+systemctl restart httpd.service
+httpd -t
+mkdir -p /var/log/httpd/sample_project/
+httpd -t
+systemctl restart httpd.service
+ls -al
+mv index.php index.php.bak
+systemctl restart httpd.service
+systemctl restart php-fpm
+composer update
+composer run
+composer run-script
+cat  README.md 
+ vi /etc/httpd/conf.d/sample_project.conf
+make
+ll
+composer self-update --2.2
+make
+ll
+./composer.phar 
+./composer.phar 
+"composer self-update --2.2
+composer self-update --2.2
+composer self-update --2.2
+yum install yum-utils
+yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+yum-config-manager --enable remi-php74
+yum update
+ll
+./composer.phar 
+ll
+make
+make
+ll
+yum install mariadb
+mysql
+sudo mysql
+sudo yum install mysql-server
+curl -sSLO https://dev.mysql.com/get/mysql80-community-release-el7-7.noarch.rpm
+md5sum mysql80-community-release-el7-7.noarch.rpm
+sudo rpm –ivh mysql57-community-release-el7-7.noarch.rpm
+sudo yum install mysql-server
+sudo yum update
+sudo yum install mysql-server
+rpm –ivh mysql57-community-release-el7-7.noarch.rpm
+curl -sSLO https://dev.mysql.com/get/mysql80-community-release-el7-5.noarch.rpm
+md5sum mysql80-community-release-el7-5.noarch.rpm
+sudo rpm -ivh mysql57-community-release-el7-9.noarch.rpm
+sudo rpm -ivh mysql57-community-release-el7-9.noarch.rpm
+sudo mysql_secure_installation
+sudo rpm -ivh mysql57-community-release-el7-9.noarch.rpm
+md5sum mysql80-community-release-el7-5.noarch.rpm
+sudo rpm -ivh mysql57-community-release-el7-9.noarch.rpm
+sudo yum install mysql-server
+wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+yum update
+yum update
+sudo yum install mysql-server
+sudo systemctl start mysqld
+ sudo mysql_secure_installation
+sudo grep 'temporary password' /var/log/mysqld.log
+sudo grep 'password' /var/log/mysqld.log
+mysql -u root -p
+ sudo mysql_secure_installation
+y
+mysql -u root -p
+mysql -u sample_user -p
+mysql -u sample_user 
+mysql -u sample_user -p
+mysql -u sample_user -p
+mysql -u sample_user -p
+mysql -u sample_user -p
+mysql -u root -p
+mysql -u root -p
+mysql -u root -p
+mysql -u sample_user -p
+ll
+rm -rf mysql80-community-release-el7-5.noarch.rpm mysql-community-release-el7-5.noarch.rpm mysql80-community-release-el7-7.noarch.rpm
+ll
+l
+ll
+cd sql/
+l
+ll
+vi db.sql 
+mysql -u sample_user -p
+vi db.sql 
+mysql -u sample_user -p
+vi /etc/httpd/conf.d/sample_project.conf 
+httpd -t
+vi +14 /etc/httpd/conf.d/sample_project.conf
+httpd -t
+httpd -t
+ll
+cd ../
+ll
+service httpd restart
+service httpd php-fpm
+service php-fpm restar
+service php-fpm restart
+curl -vvv http://13.232.137.105/
+ll
+cd ../
+ll
+vi /etc/httpd/conf/httpd.conf 
+httpd -t
+service httpd restart
+chown apache:apache sample_project/
+chown -R apache:apache sample_project/
+service httpd restart
+chmod 755 -R apache:apache sample_project/
+chmod 755 -R  sample_project/
+ll
+service httpd restart
+chmod 777 -R  sample_project/
+service httpd restart
+tail -f /var/log/php-fpm/error.log 
+tail -f /var/log/httpd/sample_project/error.log 
+vi /etc/httpd/conf/httpd.conf 
+vi /etc/httpd/conf.d/sample_project.conf 
+httpd -t
+service httpd restart
+tail -f /var/log/httpd/sample_project/error.log 
+vi /etc/httpd/conf.modules.d/00-base.conf 
+  sudo a2enmod autoindex
+cd /etc/httpd/conf.d/
+sudo mv autoindex.conf autoindex.conf.bak
+sudo httpd -k restart
+tail -f /var/log/httpd/sample_project/error
+tail -f /var/log/httpd/sample_project/error.log 
+tail -f /var/log/httpd/sample_project/error.log 
+tail -f /var/log/httpd/sample_project/access.log 
+tail -f /var/log/httpd/sample_project/error.log 
+tail -f /var/log/httpd/sample_project/error.log 
+ls -a
+vi /etc/httpd/conf.d/sample_project.conf 
+sudo httpd -k restart
+sudo httpd -k status
+sudo httpd -k start
+vi /etc/httpd/conf.d/sample_project.conf 
+cat <VirtualHost *:5001>
+  DocumentRoot /usr/src/fileserver/public
+  <Directory /usr/src/fileserver/public/>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+  </Directory>
+  ErrorLog /usr/src/fileserver/docker/logs/error.log
+  CustomLog /usr/src/fileserver/docker/logs/access.log combined
+cat /etc/httpd/conf.d/sample_project.conf
+cat > /etc/httpd/conf.d/sample_project.conf
+cat /etc/httpd/conf.d/sample_project.conf
+cat > /etc/httpd/conf.d/sample_project.conf
+vi  /etc/httpd/conf.d/sample_project.conf
+vi  /etc/httpd/conf.d/sample_project.conf
+httpd -t
+vi  /etc/httpd/conf.d/sample_project.conf
+httpd -t
+service php-fpm restart
+curl -vvv http://13.232.137.105/
+php -m
+tail -f /var/log/httpd/error_log 
+tail -f /var/log/httpd/sample_project/error.log 
+vi +3 /var/www/html/sample_project/web/index.php
+cd /var/www/html/sample_project/
+ls -la
+cd dic/
+ll
+cat users.php 
+service php-fpm restart
+composer install
+cd ../
+l
+ll
+composer install
+make
+./composer.phar 
+cd /etc/httpd/hh
+cd /etc/httpd/conf
+ls -la
+vi httpd.conf 
+vi ../conf.modules.d/00-base.conf 
+ls -la
+cd ../conf.d/
+ll]
+ll
+mv autoindex.conf.bak autoindex.conf
+httpd -k restart
+tail -f /var/log/httpd/sample_project/error.log 
+tail -f /var/log/httpd/sample_project/access.log 
+tail -f /var/log/httpd/sample_project/error
+service php-fpm restart
+tail -f /var/log/php-fpm/error.log 
+cd /var/www/html/sample_project/
+l
+ll
+php artisan key:generate
+php artisphp artisan cache:clear 
+php artisan cache:clear 
+cd ../
+ll
+chmod 755 -R sample_project/
+ll
+systemctl restart httpd
+systemctl restart php-fpm
+cd /var/www/html/
+ll
+cd sample_project/
+ll
+cd web/
+ls
+vi index.php 
+vi index.php 
+l
+cd ../
+ll
+mv index.php.bak index.php
+service restart httpd
+service httpd restart
+service php-fpm restart
+cd web/
+ll
+mv index.php index.php.bak
+cd ../
+ll
+mv index.php web/
+ll
+cd web/
+ll
+mv index.php ../
+mv ../index.php /var/www/
+mv index.php.bak index.php
+ls
+ll
+vi index.php 
+cd
+CD /usr/share/pear
+cd /usr/share/pear
+ls
+cd
+CD /usr/share/php/
+ls
+cd /usr/share/php/
+ls
+cd /var/www/html/sample_project/
+ls
+ll
+vi error_handler.php 
+cd dic/
+ls
+cd ..
+cd web/
+ls
+php index.php 
+vi index.php 
+cd ../dic/
+php users.php 
+vi +3 users.php 
+ll
+cd ../
+ll
+cd config
+ll
+php db-connection.php 
+vi db-connection.php 
+php db-connection.php 
+vi db-connection.php 
+php db-connection.php 
+cd 
+httpd -k restart
+service php-fpm restart
+cd -
+cd ../
+ll
+cd dic/
+ll
+php users.php 
+cd ../web/
+vi user.php 
+cd ../dic/
+vi users.php 
+cd ../config
+ll
+pwd
+ll -h
+lh
+ll;
+ll
+vi db-connection.php 
+vi db-connection.php 
+vi vhost.conf 
+php db-connection.php 
+php vhost.conf 
+pwd
+cd ..
+ll
+cd dic/
+ll
+php tweets.php 
+php users.php 
+pwd
+cat tweets.php 
+ls
+cd ../config
+ls
+vi db-connection.php 
+php db-connection.php 
+vi db-connection.php 
+php db-connection.php 
+php vhost.conf 
+vi vhost.conf 
+ll
+php db-connection.php 
+cd ..
+ls
+cd dic/
+ls
+vi users.php 
+php users.php 
+php tweets.php 
+vi users.php 
+vi negotiated_format.php 
+vi tweets.php 
+ll
+php tweets.php 
+php users.php 
+ httpd -k restart
+service php-fpm restart
+ll
+vi tweets.php 
+ll
+cd ..
+ll
+cd web/
+ls
+vi index.php 
+cd ../dic/
+ls
+vi tweets.php 
+php tweets.php 
+vi users.php 
+php users.php 
+php users.php 
+vi users.php 
+cd ../config
+ls
+vi db-connection.php 
+vi vhost.conf 
+php db-connection.php 
+cd ../
+ll
+php dic/users.php 
+l
+l
+ll
+cd dic/
+ll
+cat users.php 
+ll
+cat users.php 
+vi users.php 
+php users.php 
+vi users.php 
+cd ../
+ls -la
+cat error_handler.php 
+cd vendor/
+ll
+cd composer/
+l
+l
+ll
+cd
+cd -
+cd ../../
+ll
+cd web/
+ll
+cat index.php 
+php index.php 
+ll
+cd ../
+ll
+vi .htaccess
+vi .htaccess
+ls -la
+service httpd restart
+service php-fpm restart
+l
+ll
+cd web/
+ll
+cat index.php 
+cd ../.
+ll
+vi .htaccess 
+cd web/
+ll
+mv index.php sample.php
+ll
+service httpd restart
+service php-fpm restart
+vi .htaccess 
+cd ../
+ll
+vi .htaccess 
+cd web/
+ll
+service httpd restart
+ls -la
+mv sample.php index.php
+cd ..
+vi .htaccess 
+cd ../../../
+ll
+cd www/
+ll
+mv index.php index.php.bak
+service httpd restart
+cd html/
+ls -la
+cd sample_project/
+ll
+cd web/
+ll
+cat index.php 
+ll
+cd ../
+ll
+cat .htaccess 
+cat > .htaccess 
+cat .htaccess 
+service php-fpm resatrt
+service php-fpm restart
+service httpd restart
+cd web/
+ls
+ll
+php index.php 
+restorecon -rv /usr/share/php
+php index.php 
+service php-fpm restart
+php index.php 
+vi +3 index.php 
+cd ../dic/
+ll
+php users.php 
+cd ../web/
+php index.php 
+cd ../dic/
+vi users.php 
+ls -la
+vi ../web/index.php 
+php ../web/index.php 
+vi ../web/index.php 
+php ../web/index.php 
+vi /var/www/html/sample_project/dic/users.php
+php ../web/index.php 
+vi /var/www/html/sample_project/dic/users.php
+php ../web/index.php 
+vi /var/www/html/sample_project/web/index.php
+php ../web/index.php 
+vi /var/www/html/sample_project/web/index.php
+php ../web/index.php 
+vi /var/www/html/sample_project/web/index.php
+cd 
+cd /var/www/html/
+ll
+cp -pvrf sample_project/ /tmp/
+rm -rf sample_project/
+ll
+httpd S
+httpd -S
+cd /home/centos/
+ll
+cd sample/
+l
+ll
+git clone https://github.com/fajar7xx/olshopfajar
+LL
+LL
+LL
+ll
+CD 
+cd olshopfajar/
+ll
+cd ../
+ll
+mkdir -p /var/www/html/sample_project
+cp -pvrf olshopfajar/* /var/www/html/sample_project/
+cd /var/www/html/
+ll
+cd sample_project/
+ll
+cd ../
+ll
+httpd -S
+vi /etc/httpd/conf.d/sample_project.conf
+service httpd restart
+service php-fpm restart
+cd sample_project/
+ll
+php index.php 
+cat in
+cat index.php 
+cd includes/
+ll
+vi db.php 
+mysql -u sample_user -p
+l
+ll
+cd ../
+ll
+cat README.md 
+cd includes
+ls -la
+cat db.php 
+vi db.php 
+php db.php 
+cd ../
+ll
+php in
+php index.php 
+cd ../
+ll
+cd sample_project/
+ll
+git clone https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/balaProjectSample
+ll
+cd balaProjectSample/
+cd ../
+cd ../
+ll
+cd sample_project/
+ll
+rm -rf balaProjectSample/
+cd ../
+ll
+git clone https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/balaProjectSample
+ll
+cp -pvrf sample_project/* balaProjectSample/
+cd balaProjectSample/
+ll
+git status
+git add .
+git status
+git commit -m "source code"
+git push origin main
+git push origin master
+l
+ll
+httpd -S
+vi /etc/httpd/conf.d/sample_project.conf
+vi /etc/httpd/conf.d/sample_project.conf
+ll
+cd ../
+ll
+rm - rf sample_project/
+ll
+cd sample_project/
+ll
+cd ../
+ll
+rm -rf sample_project/
+ll
+service httpd restart
+service php-fpm restart
+ll
+cd balaProjectSample/
+ll
+ll
+vi buildspec.yml
+git add .
+git commit -m "buildspec added"
+git push origin master
+vi buildspec.yml
+git add .
+git commit -m "buildspec updated"
+git push origin master
+ll
+sudo yum update
+sudo yum install ruby
+cd /tmp/
+wget https://bucket-name.s3.region-identifier.amazonaws.com/latest/install
+l s-la
+l 
+ll
+cd /home/centos
+ll
+wget https://bucket-name.s3.region-identifier.amazonaws.com/latest/install
+wget https://bucket-name.s3.ap-south-1.amazonaws.com/latest/install
+ll
+wget https://ap-south-1.s3.ap-south-1.amazonaws.com/latest/install
+wget https://cicd-project-sample.s3.ap-south-1.amazonaws.com/latest/install
+ll
+ll
+wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/install
+chmod +x ./install
+ll
+sudo ./install auto -v releases/codedeploy-agent-version.noarch.rpm
+systemctl status codedeploy-agent
+systemctl status codedeploy-agent
+mv install /usr/local/bin/
+systemctl status codedeploy-agent
+sudo /usr/local/bin/install auto -v releases/codedeploy-agent-version.noarch.rpm
+sudo /usr/local/bin/install auto
+systemctl start codedeploy-agent
+systemctl status codedeploy-agent
+ll
+systemctl status codedeploy-agent
+l
+ll
+cd project/
+ll
+cd ../sample/
+ll
+cd olshopfajar/
+ll
+cd /var/www/html/balaProjectSample/
+ll
+vi appspec.yml
+git add .
+git commit -m "psuhed appspec.yml"
+gti push origin main
+git push origin main
+https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/balaProjectSample
+git push origin master
+ll
+vi appspec.yml 
+mkdir -p scripts
+cd s
+ll
+cd scripts/
+ls -al
+ll
+cd ../
+vi appspec.yml 
+cd scripts/
+vi before_install.sh
+vi after_install.sh
+vi application_start.sh
+vi before_install.sh 
+vi after_install.sh 
+vi after_install.sh 
+vi application_start.sh 
+cd ../
+ll
+git status
+git add .
+vi appspec.yml 
+git status
+git add .
+git commit -m "scripts added"
+git push origin master
+reboot
+cd /var/www/html/
+cd balaProjectSample/
+l
+ls -al
+vi shop.php 
+vi index.php 
+git status 
+git add .
+git commit -m "changes"
+git push origin main
+git push origin master
+vi index.php 
+git add .
+git commit -m "changes on index.php"
+git push origin master
+git push origin master
+vi index.php 
+git add .
+git commit -m "changes update on index.php"
+git push origin master
+vi index.php 
+git add .
+git commit -m "changes update on index.php"
+git push origin master
+vi appspec.yml 
+ll
+cd s
+cd scripts/
+ll
+cat after_install.sh 
+cat before_install.sh 
+cat application_start.sh 
+cat before_install.sh 
+cat after_install.sh 
+vi index.php 
+cd ../
+vi index.php 
+git add .
+git commit -m "changes"
+git push origin master
+ll
+l s-la
+ll
+ll
+ll
+cd ../
+cp -pvrf balaProjectSample/* /home/centos/
+git clone https://github.com/balajeetripathi-codes/sample_php_cicd_project.git
+ll
+cp -pvrf balaProjectSample/* sample_php_cicd_project/
+ll
+rm -rf sample_php_cicd_project/
+ll
+cd /home/centos/
+ll
+cd ../
+ll
+cd centos/
+ll
+cd ../
+ll
+mkdir -p sample_code_cicd
+cp -pvrf centos/* sample_code_cicd/
+cd sample_code_cicd/
+l
+ll
+cd ../
+gti clone https://github.com/balajeetripathi-codes/sample_php_cicd_project.git
+git clone https://github.com/balajeetripathi-codes/sample_php_cicd_project.git
+ll
+mv sample_code_cicd/ sample_php_cicd_project/
+ll
+cd sample_php_cicd_project/
+ll
+git status
+git add .
+git commit -m "source code"
+git push origin main
+git push origin main
+git remote add origin https://github.com/balajeetripathi-codes/sample_php_cicd_project.git
+git push -u origin main
+git pull origin https://github.com/balajeetripathi-codes/sample_php_cicd_project.git
+git pull https://github.com/balajeetripathi-codes/sample_php_cicd_project.git
+git fetch https://github.com/balajeetripathi-codes/sample_php_cicd_project.git
+ll
+git statis
+git status
+ll
+cd sample_code_cicd/
+ll
+git status
+cd ../
+git push -u origin master
+cd ../
+l
+l
+history
+vi sample_php_cicd_project/normalfile.txt
+history -w  /sample_php_cicd_project/normalfile.txt
+cat sample_php_cicd_project/normalfile.txt
+cat /sample_php_cicd_project/normalfile.txt
+cd sample_php_cicd_project/
+ls -la
+vi normalfile.txt
+ls
+ll
+history -w normalfile.txt
